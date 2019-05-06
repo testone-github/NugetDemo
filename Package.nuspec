@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>testone</id>
+    <version>1.0.0</version>
+    <authors>testone</authors>
+    <owners>testone</owners>
+    <licenseUrl>https://github.com/testone-github/NugetDemo/blob/master/Read.me</licenseUrl>
+    <projectUrl>https://github.com/testone-github/NugetDemo</projectUrl>
+    <iconUrl>https://icons8.com/icon/21566/superman</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>testone MyPackage</description>
+    <releaseNotes>That is the first version of this test package.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>testone Tag1 Tag2</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.WebApi.Client" version="5.2.7" />
+      <dependency id="Newtonsoft.Json" version="12.0.2" />
+    </dependencies>
+  </metadata>
+  <files>
+  <file src="NugetDemo/MyClass.cs" target="content/MyClass.cs"/>
+  </files>
+  
+</package>
